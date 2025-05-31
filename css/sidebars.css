@@ -1,3 +1,53 @@
+.inter-regular{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+    .heading{
+    text-align: center;
+  }
+
+  h1{
+    font-size: 32.44px;
+    font-weight: 400;
+    font-weight: bold;
+  }
+
+  h2{
+    font-size: 28.83px;
+    font-weight: 400;
+    font-weight: bold;
+  }
+
+  h3{
+    font-size: 25.63px;
+    font-weight: 600;
+  }
+
+  h4{
+    font-size: 22.78px;
+    font-weight: 400;
+  }
+
+  p{
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .boldtext{
+    font-weight: bold;
+  }
+
+    .footer-cy{
+    text-align: center;
+  }
+
+    .card-img-top{
+    display: block;
+    margin: auto;
+    width: 50%;
+  }
 body, html {
   min-height: 100vh;
   min-height: -webkit-fill-available;

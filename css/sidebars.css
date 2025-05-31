@@ -43,11 +43,7 @@
     text-align: center;
   }
 
-    .card-img-top{
-    display: block;
-    margin: auto;
-    width: 50%;
-  }
+
 body, html {
   min-height: 100vh;
   min-height: -webkit-fill-available;

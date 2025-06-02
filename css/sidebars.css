@@ -12,35 +12,42 @@
     font-size: 32.44px;
     font-weight: 400;
     font-weight: bold;
+    font-family: "Inter", sans-serif;
   }
 
   h2{
     font-size: 28.83px;
     font-weight: 400;
     font-weight: bold;
+    font-family: "Inter", sans-serif;
   }
 
   h3{
     font-size: 25.63px;
     font-weight: 600;
+    font-family: "Inter", sans-serif;
   }
 
   h4{
     font-size: 22.78px;
     font-weight: 400;
+    font-family: "Inter", sans-serif;
   }
 
   p{
     font-size: 16px;
     font-weight: 400;
+    font-family: "Inter", sans-serif;
   }
 
   .boldtext{
     font-weight: bold;
+    font-family: "Inter", sans-serif;
   }
 
     .footer-cy{
     text-align: center;
+    font-family: "Inter", sans-serif;
   }
 
 
@@ -48,6 +55,7 @@ body, html {
   min-height: 100vh;
   min-height: -webkit-fill-available;
   min-width: 500px;
+  font-family: "Inter", sans-serif;
 }
 /* 
 html {

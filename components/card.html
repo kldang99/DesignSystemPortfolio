@@ -79,9 +79,9 @@
                         </button>
                         <div class="collapse  show" id="components-collapse">
                           <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                            <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded"><span class = "activeLink rounded">Component Name</span></a></li>
-                            <li><a href="component2.html" class="link-dark d-inline-flex text-decoration-none rounded">Component Name</a></li>
-                            <li><a href="component3.html" class="link-dark d-inline-flex text-decoration-none rounded">Component Name</a></li>
+                            <li><a href="navbar.html" class="link-dark d-inline-flex text-decoration-none rounded">Navbar</a></li>
+                            <li><a href="footer.html" class="link-dark d-inline-flex text-decoration-none rounded">Footer</a></li>
+                            <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded"><span class = "activeLink rounded">Card</span></a></li>
                      
                           </ul>
                         </div>
@@ -134,9 +134,9 @@
                                     </button>
                                     <div class="collapse  show" id="components-collapse">
                                       <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                                        <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded"><span class = "activeLink rounded">Component Name</span></a></li>
-                                        <li><a href="component2.html" class="link-dark d-inline-flex text-decoration-none rounded">Component Name</a></li>
-                                        <li><a href="component3.html" class="link-dark d-inline-flex text-decoration-none rounded">Component Name</a></li>
+                                        <li><a href="navbar.html" class="link-dark d-inline-flex text-decoration-none rounded">Navbar</a></li>
+                                        <li><a href="footer.html" class="link-dark d-inline-flex text-decoration-none rounded">Footer</a></li>
+                                        <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded"><span class = "activeLink rounded">Card</span></a></li>
                                  
                                       </ul>
                                     </div>
@@ -163,78 +163,26 @@
       <div class = "container-fluid overflow-auto">
         <div class = "row p-5">
           <div id="content">
-            <h2>Component 1 (e.g. Button)</h2>
-            <p>See posted student examples. Make sure this works responsively. There are currently no columns in this section. (You will need to add those). </p>
-            <p>For the code - use something like this so that the code does not render in the page. This is using prism.js which is in the files. 
-              Be sure to properly indent the code. 
-            </p>
+            <h2>Card</h2>
+            <p>The cards act as a clickable element that is linked to a project page.</p>
      
-            
-  <!-- Code example - this is what the prism.js and css are for added in this page - replace: all '<' with &lt; and  '>' with &gt; and all quotes with &quot; -->
+                        <div class="col-lg-6 col-md-12 py-2">
+              <div class="card h-100 bg-card rounded-0" style="max-width: 350px; height: auto; padding-bottom: 45px;">
+                <img src="../images/project.JPG" alt="image placeholder">
+                <div class="card-body">
+                  <h3 class="card-title">Project title</h3>
+                  <p class="card-text" style="padding-bottom: 20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    <a href="#" class="btn btn-primary position-absolute start-50 translate-middle-x mb-5" data-bs-toggle="modal" data-bs-target="#Movie1" style="background-color: #0B71B8; border: none; font-weight:bold;">Button</a>
+                  <a href="#" class="stretched-link"></a>
+                </div>
+              </div>
+            </div>
+          </div>
 
-      <div class="col code-background ">
-  <pre class="language-markup"><code>
-&lt;div class=&quot;accordion&quot; id=&quot;research-accordion&quot;&gt;
-   &lt;div class=&quot;card&quot;&gt;
-      &lt;div class=&quot;card-header&quot; id=&quot;headingOne&quot;&gt;
-         &lt;h2 class=&quot;mb-0&quot;&gt;
-               &lt;button class=&quot;btn btn-link btn-block text-left&quot; type=&quot;
-                  button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#collapseOne&quot; 
-                  aria-expanded=&quot;true&quot; aria-controls=&quot;collapseOne&quot;&gt;
-                     Project Summary and Motivation
-                &lt;/button&gt;
-          &lt;/h2&gt;
-        &lt;/div&gt;
-        &lt;div id=&quot;collapseOne&quot; class=&quot;collapse show&quot; 
-            aria-labelledby=&quot;headingOne&quot;data-parent=&quot;#research-accordian&quot;&gt;
-            &lt;div class=&quot;card-body&quot;&gt;
-                    Page Content
-              &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;card&quot;&gt;
-      &lt;div class=&quot;card-header&quot; id=&quot;headingTwo&quot;&gt;
-        &lt;h2 class=&quot;mb-0&quot;&gt;
-            &lt;button class=&quot;btn btn-link btn-block text-left&quot; type=&quot;button&quot; 
-                  data-toggle=&quot;collapse&quot; data-target=&quot;#collapseTwo&quot; 
-                  aria-expanded=&quot;false&quot; aria-controls=&quot;collapseTwo&quot;&gt;
-                      Related Publications and Posters
-            &lt;/button&gt;
-          &lt;/h2&gt;
-      &lt;/div&gt;
-      &lt;div id=&quot;collapseOne&quot; class=&quot;collapse show&quot; 
-            aria-labelledby=&quot;headingOne&quot;data-parent=&quot;#research-accordian&quot;&gt;
-           &lt;div class=&quot;card-body&quot;&gt;
-                    Page Content
-          &lt;/div&gt;
-      &lt;/div&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;card&quot;&gt;
-      &lt;div class=&quot;card-header&quot; id=&quot;headingThree&quot;&gt;
-         &lt;h2 class=&quot;mb-0&quot;&gt;
-              &lt;button class=&quot;btn btn-link btn-block text-left&quot; type=&quot;button&quot; 
-                  data-toggle=&quot;collapse&quot; data-target=&quot;#collapseThree&quot; 
-                  aria-expanded=&quot;false&quot; aria-controls=&quot;collapseThree&quot;&gt;
-                      Funded Research Grants
-            &lt;/button&gt;
-          &lt;/h2&gt;
-      &lt;/div&gt;
-      &lt;div id=&quot;collapseOne&quot; class=&quot;collapse show&quot; 
-            aria-labelledby=&quot;headingThree&quot;data-parent=&quot;#research-accordian&quot;&gt;
-          &lt;div class=&quot;card-body&quot;&gt;
-                    Page Content
-          &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt; 
-    </code>
-    </pre><!-- Code example -->
+ 
     </div><!-- col -->
-  
-          </div><!-- Row  -->
+    </div><!-- Row  -->
       </div><!-- Container -->
-                   
-  
       </div>      <!-- Content  -->
 
                

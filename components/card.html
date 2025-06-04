@@ -12,6 +12,10 @@
     <!-- Custom styles for this template -->
     <link href="../css/sidebars.css" rel="stylesheet">
 
+     <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif+Dives+Akuru&display=swap" rel="stylesheet">
 
 </head>
 
@@ -163,7 +167,7 @@
       <div class = "container-fluid overflow-auto">
         <div class = "row p-5">
           <div id="content">
-            <h2>Card</h2>
+            <h1>Card</h1>
             <p>The cards act as a clickable element that is linked to a project page.</p>
      
                         <div class="col-lg-6 col-md-12 py-2">
@@ -179,7 +183,53 @@
             </div>
           </div>
 
- 
+          <!-- Code  -->
+          <h3 style="padding-top: 20px;">Code</h3>
+          <div class="col code-background ">
+<pre class="language-markup"><code>
+    &lt;div class=&quot;col-lg-6 col-md-12 py-2&quot;&gt;
+        &lt;div class=&quot;card h-100 bg-card rounded-0&quot; style=&quot;max-width: 350px; height: auto; padding-bottom: 45px;&quot;&gt;
+            &lt;img src=&quot;../images/project.JPG&quot; alt=&quot;image placeholder&quot;&gt;
+            &lt;div class=&quot;card-body&quot;&gt;
+                &lt;h3 class=&quot;card-title&quot;&gt;Project title&lt;/h3&gt;
+                &lt;p class=&quot;card-text&quot; style=&quot;padding-bottom: 20px;&quot;&gt;
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                &lt;/p&gt;
+                &lt;a href=&quot;#&quot; class=&quot;btn btn-primary position-absolute start-50 translate-middle-x mb-5&quot; 
+                   data-bs-toggle=&quot;modal&quot; data-bs-target=&quot;#Movie1&quot; 
+                   style=&quot;background-color: #0B71B8; border: none; font-weight:bold;&quot;&gt;
+                   Button
+                &lt;/a&gt;
+                &lt;a href=&quot;#&quot; class=&quot;stretched-link&quot;&gt;&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+</code></pre>
+</div>
+
+<div class="col-12 mt-3">
+  <h3 style="padding-top: 20px;">Use</h3>
+  <ul class="use">
+    <li>Use cards to display overview of project information.</li>
+    <li>Cards will include image of project for visual appeal.</li>
+    <li>The entire card, including the button, will be clickable.</li>
+  </ul>
+</div>
+
+<div class="col-12 mt-3">
+  <h3>Accessibility Considerations</h3>
+  <p>
+    To ensure the website is accessible, the image of each card will include an alt text description. This is important for users who rely
+    on screen readers as it will help them understand the visual content. Alt text descriptions will be crafted to convey specific information,
+     instead of generic placeholders like "image."
+     The button will have concise yet descriptive labels to communicate their purpose. These buttons will also have sufficient 
+     size and spacing, ensuring usability for those with motor impairments.
+    The color contrast between the text and background will also meet accessibility standards (WCAG).
+
+    
+  </p>
+</div>
+
     </div><!-- col -->
     </div><!-- Row  -->
       </div><!-- Container -->

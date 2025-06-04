@@ -12,6 +12,11 @@
     <!-- Custom styles for this template -->
     <link href="../css/sidebars.css" rel="stylesheet">
 
+     <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif+Dives+Akuru&display=swap" rel="stylesheet">
+
 
 </head>
 
@@ -163,13 +168,32 @@
       <div class = "container-fluid overflow-auto">
         <div class = "row p-5">
           <div id="content">
-            <h2>Component 1 (e.g. Button)</h2>
-            <p>See posted student examples. Make sure this works responsively. There are currently no columns in this section. (You will need to add those). </p>
-            <p>For the code - use something like this so that the code does not render in the page. This is using prism.js which is in the files. 
-              Be sure to properly indent the code. 
-            </p>
+            <h1>Navbar</h1>
+            <p class=" padding-bottom: 45px;">The navigation bar allows users to quickly find important parts of the website, like the home, projects, and about me pages. </p>
      
-            
+            <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top padding-top-50">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">
+      <img src="../images/logo.JPG" alt="primary logo" style="height: 40px;">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">About Me</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
   <!-- Code example - this is what the prism.js and css are for added in this page - replace: all '<' with &lt; and  '>' with &gt; and all quotes with &quot; -->
 
       <div class="col code-background ">

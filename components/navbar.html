@@ -171,91 +171,92 @@
             <h1>Navbar</h1>
             <p class=" padding-bottom: 45px;">The navigation bar allows users to quickly find important parts of the website, like the home, projects, and about me pages. </p>
      
-            <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top padding-top-50">
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top outlined-navbar">
   <div class="container-fluid">
-    <a class="navbar-brand" href="index.html">
+    <!-- Logo -->
+    <a class="navbar-brand" href="">
       <img src="../images/logo.JPG" alt="primary logo" style="height: 40px;">
     </a>
+
+    <!-- Navbar toggler for small screens -->
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav ms-auto">
+
+    <!-- Navigation Menu -->
+    <div class="collapse navbar-collapse" style="margin-left: 100px;" id="navbarNavDropdown">
+      <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" href="#">Home</a>
+          <a class="nav-link active" href="#" style="font-weight: bold">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link">Projects</a>
+          <a class="nav-link" href="#">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link">About Me</a>
+          <a class="nav-link" href="#">About Me</a>
         </li>
       </ul>
     </div>
   </div>
 </nav>
+
+
   <!-- Code example - this is what the prism.js and css are for added in this page - replace: all '<' with &lt; and  '>' with &gt; and all quotes with &quot; -->
 
       <div class="col code-background ">
   <pre class="language-markup"><code>
-&lt;div class=&quot;accordion&quot; id=&quot;research-accordion&quot;&gt;
-   &lt;div class=&quot;card&quot;&gt;
-      &lt;div class=&quot;card-header&quot; id=&quot;headingOne&quot;&gt;
-         &lt;h2 class=&quot;mb-0&quot;&gt;
-               &lt;button class=&quot;btn btn-link btn-block text-left&quot; type=&quot;
-                  button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#collapseOne&quot; 
-                  aria-expanded=&quot;true&quot; aria-controls=&quot;collapseOne&quot;&gt;
-                     Project Summary and Motivation
-                &lt;/button&gt;
-          &lt;/h2&gt;
-        &lt;/div&gt;
-        &lt;div id=&quot;collapseOne&quot; class=&quot;collapse show&quot; 
-            aria-labelledby=&quot;headingOne&quot;data-parent=&quot;#research-accordian&quot;&gt;
-            &lt;div class=&quot;card-body&quot;&gt;
-                    Page Content
-              &lt;/div&gt;
-        &lt;/div&gt;
+&lt;nav class=&quot;navbar navbar-expand-lg navbar-light bg-light sticky-top outlined-navbar&quot;&gt;
+  &lt;div class=&quot;container-fluid&quot;&gt;
+
+    &lt;a class=&quot;navbar-brand&quot; href=&quot;index.html&quot;&gt;
+      &lt;img src=&quot;../images/logo.JPG&quot; alt=&quot;primary logo&quot; style=&quot;height: 40px;&quot;&gt;
+    &lt;/a&gt;
+
+    &lt;button class=&quot;navbar-toggler&quot; type=&quot;button&quot; data-bs-toggle=&quot;collapse&quot; data-bs-target=&quot;#navbarNavDropdown&quot; aria-controls=&quot;navbarNavDropdown&quot; aria-expanded=&quot;false&quot; aria-label=&quot;Toggle navigation&quot;&gt;
+      &lt;span class=&quot;navbar-toggler-icon&quot;&gt;&lt;/span&gt;
+    &lt;/button&gt;
+
+    &lt;div class=&quot;collapse navbar-collapse&quot; style=&quot;margin-left: 100px;&quot; id=&quot;navbarNavDropdown&quot;&gt;
+      &lt;ul class=&quot;navbar-nav&quot;&gt;
+        &lt;li class=&quot;nav-item&quot;&gt;
+          &lt;a class=&quot;nav-link active&quot; href=&quot;#&quot; style=&quot;font-weight: bold&quot;&gt;Home&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class=&quot;nav-item&quot;&gt;
+          &lt;a class=&quot;nav-link&quot; href=&quot;#&quot;&gt;Projects&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class=&quot;nav-item&quot;&gt;
+          &lt;a class=&quot;nav-link&quot; href=&quot;#&quot;&gt;About Me&lt;/a&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
     &lt;/div&gt;
-    &lt;div class=&quot;card&quot;&gt;
-      &lt;div class=&quot;card-header&quot; id=&quot;headingTwo&quot;&gt;
-        &lt;h2 class=&quot;mb-0&quot;&gt;
-            &lt;button class=&quot;btn btn-link btn-block text-left&quot; type=&quot;button&quot; 
-                  data-toggle=&quot;collapse&quot; data-target=&quot;#collapseTwo&quot; 
-                  aria-expanded=&quot;false&quot; aria-controls=&quot;collapseTwo&quot;&gt;
-                      Related Publications and Posters
-            &lt;/button&gt;
-          &lt;/h2&gt;
-      &lt;/div&gt;
-      &lt;div id=&quot;collapseOne&quot; class=&quot;collapse show&quot; 
-            aria-labelledby=&quot;headingOne&quot;data-parent=&quot;#research-accordian&quot;&gt;
-           &lt;div class=&quot;card-body&quot;&gt;
-                    Page Content
-          &lt;/div&gt;
-      &lt;/div&gt;
   &lt;/div&gt;
-  &lt;div class=&quot;card&quot;&gt;
-      &lt;div class=&quot;card-header&quot; id=&quot;headingThree&quot;&gt;
-         &lt;h2 class=&quot;mb-0&quot;&gt;
-              &lt;button class=&quot;btn btn-link btn-block text-left&quot; type=&quot;button&quot; 
-                  data-toggle=&quot;collapse&quot; data-target=&quot;#collapseThree&quot; 
-                  aria-expanded=&quot;false&quot; aria-controls=&quot;collapseThree&quot;&gt;
-                      Funded Research Grants
-            &lt;/button&gt;
-          &lt;/h2&gt;
-      &lt;/div&gt;
-      &lt;div id=&quot;collapseOne&quot; class=&quot;collapse show&quot; 
-            aria-labelledby=&quot;headingThree&quot;data-parent=&quot;#research-accordian&quot;&gt;
-          &lt;div class=&quot;card-body&quot;&gt;
-                    Page Content
-          &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt; 
+&lt;/nav&gt;
     </code>
     </pre><!-- Code example -->
     </div><!-- col -->
   
           </div><!-- Row  -->
+          <div class="col-12 mt-3">
+  <h3 style="padding-top: 20px;">Use</h3>
+  <ul class="use">
+    <li>The navigation bar should be present on every page for consistency.</li>
+  <li>Navigation links must be uniform across all pages to ensure usability.</li>
+  <li>The navbar should always be fixed at the top of the viewport for easy access.</li>
+  <li>The navbar should be responsive and adapt to different screen sizes.</li>
+
+  </ul>
+</div>
+
+<div class="col-12 mt-3">
+  <h3>Accessibility Considerations</h3>
+  <p>
+    Make sure to use an accessibility color checker tool to confirm that text has 
+    a contrast ratio of at least 4.5:1. The navigation bar should work fully with a 
+    keyboard and have clear link labels for screen readers. It should also be responsive, with a
+     hamburger menu for mobile with properly labeled buttons, and include visible hover and focus states. 
+     Also, use the inverse logo for dark backgrounds.
+
+  </p>
       </div><!-- Container -->
                    
   
@@ -263,6 +264,7 @@
 
                
             </main>
+            
         </div>
     </div>
 

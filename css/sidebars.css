@@ -241,23 +241,28 @@ main {
 }
 
 .page-link{
-  color: grey;
+  color: rgb(0, 0, 0);
 }
 
 .pagination {
   --bs-pagination-hover-color: #222;
-  --bs-pagination-hover-bg: #d2f4ea;;
-  --bs-pagination-active-color: #222;
-  --bs-pagination-active-bg: #d2f4ea;
-  --bs-pagination-active-border-color: #222;
+  --bs-pagination-hover-bg: #e7e7e7;
+  --bs-pagination-active-color: #ffffff;
+  --bs-pagination-active-bg: #0B71B8;
+  --bs-pagination-active-border-color: #0B71B8;
 }
 
 .navbar {
-  padding-top: 30px; /* Adjust the value as needed */
+  padding-top: 30px; 
 }
 
 .outlined-navbar {
   border: 1px solid rgb(163, 163, 163); 
   padding: 10px; 
   margin: 20px; 
+}
+
+.footer-body {
+  text-align: center; 
+  margin: 0 auto; 
 }

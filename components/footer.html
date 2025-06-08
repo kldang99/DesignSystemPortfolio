@@ -168,27 +168,82 @@
       <div class = "container-fluid overflow-auto">
         <div class = "row p-5">
           <div id="content">
-            <h2>Component 2 (e.g. Cards)</h2>
-            <p>See posted student examples. Make sure this works responsively. There are currently no columns in this section. (You will need to add those). </p>
-            <p>For the code - use something like this so that the code does not render in the page. This is using prism.js which is in the files. 
-              Be sure to properly indent the code. 
-            </p>
+            <h2>Footer</h2>
+            <p class=" padding-bottom: 45px;">The footer shows copyright information and the last time the website was updated. </p>
      
-                  <footer>
-        <div class="container">
-          <div class="row">
-            <div class="col">
-              <p class="footer-body">Copyright © 2023 Asato Kobayashi. All Rights Reserved.</p>
-            </div>
-          </div>
-        </div>
-      </footer>
+            <footer class="container p-3 outlined-navbar">
+              <div class="row">
+                <div class="col">
+                  <p class="footer-body">© Kathy Dang 2025</p>
+                </div>
+              </div>
+            </footer>
 
  
     </div><!-- col -->
+          <div class="col code-background ">
+  <pre class="language-markup"><code>
+&lt;nav class=&quot;navbar navbar-expand-lg navbar-light bg-light sticky-top outlined-navbar&quot;&gt;
+  &lt;div class=&quot;container-fluid&quot;&gt;
+
+    &lt;a class=&quot;navbar-brand&quot; href=&quot;index.html&quot;&gt;
+      &lt;img src=&quot;../images/logo.JPG&quot; alt=&quot;primary logo&quot; style=&quot;height: 40px;&quot;&gt;
+    &lt;/a&gt;
+
+    &lt;button class=&quot;navbar-toggler&quot; type=&quot;button&quot; data-bs-toggle=&quot;collapse&quot; data-bs-target=&quot;#navbarNavDropdown&quot; aria-controls=&quot;navbarNavDropdown&quot; aria-expanded=&quot;false&quot; aria-label=&quot;Toggle navigation&quot;&gt;
+      &lt;span class=&quot;navbar-toggler-icon&quot;&gt;&lt;/span&gt;
+    &lt;/button&gt;
+
+    &lt;div class=&quot;collapse navbar-collapse&quot; style=&quot;margin-left: 100px;&quot; id=&quot;navbarNavDropdown&quot;&gt;
+      &lt;ul class=&quot;navbar-nav&quot;&gt;
+        &lt;li class=&quot;nav-item&quot;&gt;
+          &lt;a class=&quot;nav-link active&quot; href=&quot;#&quot; style=&quot;font-weight: bold&quot;&gt;Home&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class=&quot;nav-item&quot;&gt;
+          &lt;a class=&quot;nav-link&quot; href=&quot;#&quot;&gt;Projects&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class=&quot;nav-item&quot;&gt;
+          &lt;a class=&quot;nav-link&quot; href=&quot;#&quot;&gt;About Me&lt;/a&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/nav&gt;
+    </code>
+    </pre><!-- Code example -->
     </div><!-- Row  -->
+          <div class="col-12 mt-3">
+  <h3 style="padding-top: 20px;">Use</h3>
+  <ul class="use">
+    <li>The footer should appear at the bottom of every page.</li>
+  <li>The footer includes copyright details and the most recent year the site was updated.</li>
+
+  </ul>
+</div>
+
+<div class="col-12 mt-3">
+  <h3>Accessibility Considerations</h3>
+  <p>
+    Make sure to use an accessibility color checker tool to confirm that text has 
+    a contrast ratio of at least 4.5:1. The footer should work fully with a 
+    keyboard and use the footer tag for screen readers. The footer above uses
+    dark text on a light background. If using a dark background, ensure the text is 
+    light enough to meet contrast requirements.
+
+  </p>
+      </div><!-- Container -->
+                   
+  
+      </div> 
+    </div><!-- col -->
+  
+          
+    </div><!-- Row  -->
+    
       </div><!-- Container -->
       </div>      <!-- Content  -->
+        
+      
 
                
             </main>
